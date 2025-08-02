@@ -64,7 +64,7 @@ createGrid();
 
 const resetButton = document.querySelector('#clear');
 resetButton.addEventListener('click', () => {
-    resizeGrid();
+    // resizeGrid();
     container.innerHTML = ''; // Clear the existing grid
     createGrid();
     squares.forEach(square => {
